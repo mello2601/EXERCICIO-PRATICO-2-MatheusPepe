@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: #333;
+            color: #ffffff;
+        }
+
+        h1 {
+            color: rgb(218, 182, 5);
+        }
+
+        input, textarea {
+            width: 300px;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: rgb(218, 182, 5);
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: rgb(255, 223, 0);
+        }
+    </style>
+    <h1>Formulário de Contato</h1>
+
+    <label for="name"></label>
+    <input type="text" id="name" name="name" placeholder="Digite seu nome"> <br><br>
+    <label for="email"></label>
+    <input type="email" id="email" name="email" placeholder="Digite seu email"> <br><br>
+    <label for="message"></label>
+    <textarea id="message" name="message" placeholder="Digite sua mensagem"></textarea> <br>
+    <button type="submit">Enviar</button>
+
+</body>
+</html>
